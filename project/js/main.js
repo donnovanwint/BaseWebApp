@@ -15,6 +15,7 @@ function getWeather(searchQuery) {
 
 function searchWeather() {
   let searchQuery = $('.search').val();
+  $('.search').val('');
   $('.city').text('');
   $('.temp').text('');
   $('.error-message').text('');
